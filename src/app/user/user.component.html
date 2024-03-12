@@ -1,0 +1,8 @@
+<div>
+  <h2>Version: {{ displayVersion }}</h2>
+  <p>Change.log</p>
+  <ul>
+    <li>Initial value of major set to 1, Initial value of minor set to 23</li>
+    <li *ngFor="let change of changelog">{{ change }}</li>
+  </ul>
+</div>
